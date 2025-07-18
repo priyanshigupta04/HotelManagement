@@ -2,7 +2,7 @@ import React from "react";
 import { assets } from "../assets/assets";
 import Title from "./Title";
 
-const Newslatter = () => {
+const Newsletter = () => {
   return (
     <div className="flex flex-col items-center max-w-5xl lg:w-full rounded-2xl px-4 py-12 md:py-16 mx-2 lg:mx-auto my-30 bg-gray-900 text-white">
       <Title title='Stay Inspired' subtitle='Join our newsletter and be the first to discover new updates, exclusive offers, and inspiration.'/>
@@ -29,4 +29,4 @@ const Newslatter = () => {
   );
 };
 
-export default Newslatter;
+export default Newsletter;
